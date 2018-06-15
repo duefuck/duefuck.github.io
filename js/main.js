@@ -1,3 +1,3 @@
-﻿function 2page() {
-         window.location.href = '/universe';
+﻿function page2() {
+         window.location.href = 'https://duefuck.github.io/universe/index.html';
 }
