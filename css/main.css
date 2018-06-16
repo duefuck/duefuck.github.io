@@ -2,12 +2,13 @@
 		background-color : blue;
 		}
 		.vi:hover  {
-			color: #d6ebff;
+			color: #8aa5ea;
 			transition: color 0.25s;
 			text-decoration: none;
 			font-weight: 1000; 
 			font-size: 1.2em; 
 			padding: 5px; 
+		    text-align: center; 
 		}
 		.va { 
 			text-align: center; 
@@ -15,6 +16,11 @@
 		    font-family: Algerian;
 		}
 		
+		.vu  {
+			color: #a687e5;
+			text-align: center; 
+		    font-family: 'Old English Text';
+		}
 		.ve { 
 			color: yellow;
 		}
@@ -64,4 +70,5 @@
 	       filter: hue-rotate(95deg) brightness(125%);
            color: #021244;
         }
+		
 		
