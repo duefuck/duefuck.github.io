@@ -70,5 +70,49 @@
 	       filter: hue-rotate(95deg) brightness(125%);
            color: #021244;
         }
-		
-		
+		.menu {
+           margin-left: 15%;
+           margin-right: 15%;
+        }
+		.navmenu ul {
+           margin: 0;
+           padding: 0;
+           list-style: none;
+        }
+		.navmenu li {
+           display: inline-block;
+           transition: background-color 0.15s;
+        }
+		.navmenu li:hover {
+           background-color: #193593;
+        }
+
+        .navmenu li:active {
+           background-color: #301759;
+        }
+		.navmenu a {
+           text-decoration: none;
+           color: #e18fff;
+           font-family: 'Calibri';
+           font-weight: 400;
+           text-transform: uppercase;
+           transition: color 0.15s linear;
+           display: inline-block;
+           padding: 0.97em 0.97em;
+        }
+        .navmenu a:hover {
+           color: #42056b;
+        }
+
+        .navmenu a:active {
+           color: #6b0569;
+        }
+		header {
+           color: transparent;;
+        }
+
+         header::after {
+           content: '';
+           display: table;
+           clear: both;
+        }
