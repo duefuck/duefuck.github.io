@@ -116,3 +116,14 @@
            display: table;
            clear: both;
         }
+		.btn1 {
+           filter: hue-rotate(30deg) brightness(125%);
+           background-image: url('images/tu.png');
+        }
+		.move:hover {
+			border-radius: 20px; 
+		}
+		.move:active {
+			border-radius: 50px; 
+			width: 1200px;
+		}
