@@ -135,7 +135,7 @@
 			position: relative; 
 		}
 		.vector img {	
-			max-width: 1200; 
+			max-width: 100%; 
 		    display: block; 
 		}
 		.descr {
@@ -143,11 +143,11 @@
 			top: 0; 
 			left: 0;
 			width: 1200; 
-			
+			height: 1200; 
 			background-color: rgba(0,0,0,.5); 
 		    color: #fff; 
 		    font-family: 'SimSun';
-			padding-top: 1200px; 
+			padding-top: 80px; 
 			text-align: center;
 			opacity: 0; 
 			-webkit-transition: all .5s;
